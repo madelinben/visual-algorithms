@@ -18,43 +18,47 @@
     <link rel="icon" type="image/png" href="..\img\favicon.png">
 
     <!-- PAGE STYLING -->
-    <link rel="stylesheet" type="text/css" href="..\style\style.css">
+    <link rel="stylesheet" type="text/css" href="styles\style.css">
 </head>
 
 <body>
 <!-- PAGE CONTAINER -->
 <div class="wrapper">
-<header>
+    <header>
         <nav>
             <div class="alg-setup">
-                <p>Size:</p>
-                <input id="array-size" type="range" min=20 max=150 step=1 value=80>
-                <p>Speed:</p>
-                <input id="array-speed" type="range" min=1 max=5 step=1 value=4>
+                <p>
+                    <label for="array-size">Size:</label>
+                    <input id="array-size" type="range" min=20 max=150 step=1 value=80>
+                </p>
+
+                <p>
+                    <label for="array-speed">Speed:</label>
+                    <input id="array-speed" type="range" min=1 max=5 step=1 value=4>
+                </p>
+
                 <button id="array-setup">Setup Array</button>
             </div>
 
-                <div class="alg-select">
-                    <button >Bubble</button>
-                    <button >Selection</button>
-                    <button >Insertion</button>
-                    <button >Merge</button>
-                    <button >Quick</button>
-                </div>
+            <div class="alg-select">
+                <button >Bubble</button>
+                <button >Selection</button>
+                <button >Insertion</button>
+                <button >Merge</button>
+                <button >Quick</button>
+            </div>
         </nav>
-</header>
+    </header>
 
     <!-- CONTENT -->
-    <section>
-        <div class="array-container">
+    <div class="content-container">
 
-        </div>
-    </section>
+    </div>
 
-<footer>
-    <a href="..\pages\index.php" class="scroll-up">Back to Top</a>
-    <i>~ Ben Madelin ~</i>
-</footer>
+    <footer>
+        <a href="index.php" class="scroll-up">Back to Top</a>
+        <i>~ Ben Madelin ~</i>
+    </footer>
 </div>
 </body>
 

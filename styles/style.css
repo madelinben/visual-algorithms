@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+           "header"
+           "content"
+           "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 1fr auto;
+    grid-gap: 20px;
+}
+
+/*--- HEADER ---*/
+header {
+    grid-area: header;
+    background-color: lightcoral;
+}
+
+/*--- CONTENT ---*/
+.content-container {
+    grid-area: content;
+    background-color: lightblue;
+}
+
+/*--- FOOTER ---*/
+footer { /* Container */
+    grid-area: footer;
+    background: lightgreen;
+}

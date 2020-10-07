@@ -3,6 +3,6 @@
 
 ## Page Layout
 * [x] Initial data and containers organised.
-* [ ] Grid
+* [x] Holy Grail Grid layout formatted.
 * [ ] Styling
 * [ ] Device Boundaries and Scaling

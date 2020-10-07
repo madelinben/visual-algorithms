@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    font-family: "Open Sans", sans-serif;
+    /*font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;*/
 }
 
 .wrapper {
@@ -20,8 +25,49 @@
 /*--- HEADER ---*/
 header {
     grid-area: header;
-    background-color: lightcoral;
+
+    width: 100vw;
+    background-color: #333333;
+    color: white;
 }
+
+.flex-container {
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /*align-content: center;*/
+}
+
+.alg-setup {
+    width: 50%;
+    /*min-width: 200px;*/
+    background-color: lightblue;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.alg-setup p {
+    display: inline-block;
+    padding-left: 2.5%;
+}
+
+.alg-select {
+    width: 30%;
+    background-color: lightcoral;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.alg-run {
+    width: 10%;
+    background-color: aquamarine;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+
 
 /*--- CONTENT ---*/
 .content-container {
@@ -30,7 +76,9 @@ header {
 }
 
 /*--- FOOTER ---*/
-footer { /* Container */
+footer {
     grid-area: footer;
-    background: lightgreen;
+
+    width: 100vw;
+    background-color: #333333;
 }

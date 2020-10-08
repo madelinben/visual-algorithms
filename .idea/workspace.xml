@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Styled buttons, on-highlight and selected.">
+    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -78,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602038695336</updated>
-      <workItem from="1602038696424" duration="13214000" />
+      <workItem from="1602038696424" duration="14124000" />
     </task>
     <task id="LOCAL-00001" summary="Initial data and containers organised.">
       <created>1602041824226</created>
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602113324964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions.">
+      <created>1602117367461</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602117367461</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,17 +136,18 @@
     <MESSAGE value="Holy Grail Grid layout formatted." />
     <MESSAGE value="Header columns organised in flex for scalability and centered inline." />
     <MESSAGE value="Styled buttons, on-highlight and selected." />
-    <option name="LAST_COMMIT_MESSAGE" value="Styled buttons, on-highlight and selected." />
+    <MESSAGE value="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions." />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="278" key="FileChooserDialogImpl" timestamp="1602114051991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602114051991" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602113327435">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602117370483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602113327435" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602117370483" />
     <state x="866" y="0" width="1061" height="1047" key="dock-window-1" timestamp="1602117292763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

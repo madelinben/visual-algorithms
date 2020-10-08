@@ -121,5 +121,15 @@ footer {
     grid-area: footer;
 
     width: 100vw;
+    height: 50px;
     background-color: #333333;
+
+    text-align: center;
+}
+
+.credit {
+    display: block;
+    color: whitesmoke;
+    font-size: large;
+    margin-top: 12px;
 }

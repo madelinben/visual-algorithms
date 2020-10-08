@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+           "header"
+           "content"
+           "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 20px;
+}
+
+/*--- HEADER ---*/
+header {
+    grid-area: header;
+
+    width: 100vw;
+    min-height: 65px;
+    height: auto;
+    background-color: #333333;
+    color: white;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: white;
+    color: #333333;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.alg-setup p {
+    margin-right: 2.5%;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    /*color: white;*/
+}
+
+.flex-container {
+    width: 100vw;
+    min-height: 65px;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /*align-content: center;*/
+
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+.alg-setup {
+    width: 430px;
+    /*min-width: 200px;*/
+    /*background-color: lightblue;*/
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.alg-setup p {
+    display: inline-block;
+    /*margin-left: 2.5%;*/
+}
+
+.alg-select {
+    width: 400px;
+    /*background-color: lightcoral;*/
+    flex-shrink: 0;
+    align-self: center;
+}
+
+/*.alg-run {
+    width: 10%;
+    !*background-color: aquamarine;*!
+    flex-shrink: 0;
+    align-self: center;
+}*/
+
+/*mobile=600px tablet=992*/
+@media screen and (max-width: 992px) {
+    .alg-setup, .alg-select, .alg-run {
+        /*width: 100%;*/
+        padding: 5px 0px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    header {
+        padding: 5px 0px;
+    }
+}
+
+
+
+/*--- CONTENT ---*/
+.content-container {
+    grid-area: content;
+    background-color: whitesmoke;
+}
+
+/*--- FOOTER ---*/
+footer {
+    grid-area: footer;
+
+    width: 100vw;
+    height: 50px;
+    background-color: #333333;
+
+    text-align: center;
+}
+
+.credit {
+    display: block;
+    color: whitesmoke;
+    font-size: large;
+    margin-top: 12px;
+}

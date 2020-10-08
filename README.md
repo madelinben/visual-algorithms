@@ -4,5 +4,5 @@
 ## Page Layout
 * [x] Initial data and containers organised.
 * [x] Holy Grail Grid layout formatted.
-* [ ] Styling
-* [ ] Device Boundaries and Scaling
+* [x] Page styling added, centering header elements inline with flex containers.
+* [x] Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions.

@@ -8,10 +8,11 @@
 * [x] Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions.
 
 ## Display Array
-* [ ] Dynamically add div boxes based on array size.
-* [ ] Center array container.
-* [ ] Set index width and height properties according to viewport size.
+* [x] Dynamically add div boxes based on array size.
+* [x] Set index width and height properties according to viewport size.
+* [ ] Center array container and anchor to bottom of page.
 * [ ] Colour visiting and completed index boxes to visualise swapping.
+* [ ] Format Timer label at bottom of page to represent alg time complexity.
 
 ## Sorting Handler
 * [ ]

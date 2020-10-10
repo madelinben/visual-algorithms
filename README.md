@@ -15,6 +15,6 @@
 * [ ] Format Timer label at bottom of page to represent alg time complexity.
 
 ## Sorting Handler
-* [ ]
-* [ ]
-* [ ]
+* [x] Implement update methods for switching index values and adjusting div heights based on value.
+* [ ] Highlight divs on visiting each index for comparison and when they are locked in order.
+* [ ] 

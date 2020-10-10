@@ -1,23 +1,23 @@
+let divValue = [];
+let divElement = [];
+
 const btnSetup = document.getElementById('array-setup');
 
 btnSetup.addEventListener('click', () => {
-
     let container = document.getElementById('content-container');
-    /*container.style = 'flex-direction: row;';*/
 
+    /*container.style = 'flex-direction: row;';*/
     let inSize = document.getElementById('array-size').value;
     let inSpeed = document.getElementById('array-speed').value;
 
     let divMargin = 1;
-
     let scaledWidth = (window.innerWidth/inSize) - (2*divMargin);
     console.log('clicked: size=' + inSize + ' speed=' + inSpeed);
     console.log('win=' + window.innerWidth + ' divW=' + (window.innerWidth/inSize) + ' scale=' + scaledWidth);
 
-    container.innerHTML = '';
+
     //Fill array with random values to the specified size
-    let divValue = [];
-    let divElement = [];
+    container.innerHTML = '';
     for (let i = 0; i < inSize; i++) {
         let rndNumber = Math.floor(Math.random() * 100) + 1;
 
@@ -29,6 +29,8 @@ btnSetup.addEventListener('click', () => {
         let divHeight = rndNumber + '%';
 
         console.log(rndNumber);
+        /*divElement[i].style = '';*/
+
         divElement[i].style.margin = '0px ' + divMargin + 'px';
         divElement[i].style.backgroundColor = 'lightcoral';
         divElement[i].style.width = divWidth + 'px';
@@ -39,3 +41,9 @@ btnSetup.addEventListener('click', () => {
         divElement[i].style.marginBottom = '0';*/
     }
 });
+
+/*
+window.addEventListener('resize', function(event){
+    var newWidth = window.innerWidth;
+    var newHeight = window.innerHeight;
+});*/

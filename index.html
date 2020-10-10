@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" href="..\img\favicon.png">
 
     <!-- PAGE STYLING -->
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -30,12 +30,12 @@
                 <div class="alg-setup">
                     <p>
                         <label for="array-size">Size:</label>
-                        <input id="array-size" type="range" min=10 max=150 step=10 value=75>
+                        <input id="array-size" type="range" value="75" min="10" max="150" step="10">
                     </p>
 
                     <p>
                         <label for="array-speed">Speed:</label>
-                        <input id="array-speed" type="range" min=1 max=5 step=1 value=3>
+                        <input id="array-speed" type="range" value="3" min="1" max="5" step="1">
                     </p>
 
                     <button id="array-setup">Setup</button>
@@ -57,7 +57,7 @@
     </header>
 
     <!-- CONTENT -->
-    <div class="content-container">
+    <div id="content-container" class="content-container">
 
     </div>
 
@@ -65,6 +65,8 @@
         <i class="credit">~ Ben Madelin ~</i>
     </footer>
 </div>
+
+<script type="text/javascript" src="scripts/display-handler.js"></script>
 </body>
 
 </html>

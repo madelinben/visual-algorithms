@@ -114,6 +114,9 @@ button:hover {
 .content-container {
     grid-area: content;
     background-color: whitesmoke;
+
+    width: auto;
+    /*margin: 0 auto;*/
 }
 
 /*--- FOOTER ---*/

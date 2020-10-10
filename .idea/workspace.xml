@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions.">
+    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Read Me objectives considered and directory organised.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/display-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/display-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,7 +70,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\benma\OneDrive\Desktop\git-repo\visual-algorithms" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602038695336</updated>
-      <workItem from="1602038696424" duration="14124000" />
+      <workItem from="1602038696424" duration="14554000" />
     </task>
     <task id="LOCAL-00001" summary="Initial data and containers organised.">
       <created>1602041824226</created>
@@ -114,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602117367461</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Footer styled according to page standard.">
+      <created>1602118281345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602118281345</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Read Me objectives considered and directory organised.">
+      <created>1602119292858</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602119292858</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,17 +160,19 @@
     <MESSAGE value="Header columns organised in flex for scalability and centered inline." />
     <MESSAGE value="Styled buttons, on-highlight and selected." />
     <MESSAGE value="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions." />
+    <MESSAGE value="Footer styled according to page standard." />
+    <MESSAGE value="Read Me objectives considered and directory organised." />
+    <option name="LAST_COMMIT_MESSAGE" value="Read Me objectives considered and directory organised." />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="278" key="FileChooserDialogImpl" timestamp="1602114051991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602114051991" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602117370483">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602119296778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602117370483" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602119296778" />
     <state x="866" y="0" width="1061" height="1047" key="dock-window-1" timestamp="1602117292763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

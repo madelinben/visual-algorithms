@@ -11,9 +11,9 @@ btnSetup.addEventListener('click', () => {
     let inSpeed = document.getElementById('array-speed').value;
 
     let divMargin = 1;
-    let scaledWidth = (window.innerWidth/inSize) - (2*divMargin);
-    console.log('clicked: size=' + inSize + ' speed=' + inSpeed);
-    console.log('win=' + window.innerWidth + ' divW=' + (window.innerWidth/inSize) + ' scale=' + scaledWidth);
+    //let scaledWidth = (window.innerWidth/inSize) - (2*divMargin);
+    //console.log('clicked: size=' + inSize + ' speed=' + inSpeed);
+    //console.log('win=' + window.innerWidth + ' divW=' + (window.innerWidth/inSize) + ' scale=' + scaledWidth);
 
 
     //Fill array with random values to the specified size
@@ -28,7 +28,7 @@ btnSetup.addEventListener('click', () => {
         let divWidth = (window.innerWidth/inSize) - (2*divMargin); //20% padding to center
         let divHeight = rndNumber + '%';
 
-        console.log(rndNumber);
+        //console.log(rndNumber);
         /*divElement[i].style = '';*/
 
         divElement[i].style.margin = '0px ' + divMargin + 'px';

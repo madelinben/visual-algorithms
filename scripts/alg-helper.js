@@ -8,7 +8,7 @@ for (let i=0; i<algBtn.length; i++) {
         /*algBtn[i].classList.remove('alg-running');*/
 
         switch (algBtn[i].innerHTML) {
-            case 'Bubble' : bubbleSort();
+            case 'Bubble' : bubbleSort().then(r => console.log('success: Bubble'));
                 break;
             case 'Selection' : selectSort();
                 break;
@@ -22,50 +22,93 @@ for (let i=0; i<algBtn.length; i++) {
     });
 }
 
-function highlight(index) {
-    divElement[index].style.backgroundColor = 'orange';
+function swap(left, right) {
+    let temp = divValue[left];
+    divValue[left] = divValue[right];
+    divValue[right] = temp;
+}
+
+function highlight(index, color) {
+    divElement[index].style.backgroundColor = color;
 }
 
 function update(index) {
     divElement[index].style.height = divValue[index] + '%';
 }
 
-function restore(index) {
-    divElement[index].style.backgroundColor = 'lightcoral';
+function sleep(milliseconds) {
+    return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
-function swap(index1, index2) {
-    let temp = divValue[index1];
-    divValue[index1] = divValue[index2];
-    divValue[index2] = temp;
-}
+/*async function test() {
+    for (let i=0; i<10; i++) {
+        await sleep(1000);
+        console.log('sleeping...');
+    }
+}*/
 
-function bubbleSort() {
+async function bubbleSort() {
+    const inSpeed = document.getElementById('array-speed').value;
 
-    //INC INTERVAL
-    for (let i = 0; i < divValue.length; i++) {
-        for (let j = 0; j < divValue.length; j++) {
-
-            //HIGHLIGHT
-
-            //SWAP
-            if (divValue[j] > divValue[j + 1]) {
-                let temp = divValue[j];
-                divValue[j] = divValue[j + 1];
-                divValue[j + 1] = temp;
-
-                //UPDATE
-                update(j);
-                update(j+1);
-            }
-        }
-        //LOCK
+    let ms = 1000;
+    switch(parseInt(inSpeed))
+    {
+        case 1: ms=500;
+            break;
+        case 2: ms=250;
+            break;
+        case 3: ms=100;
+            break;
+        case 4: ms=10;
+            break;
+        case 5: ms=1;
+            break;
+        default: ms=1000;
+            break;
     }
 
-    /*let stepTimer = setInterval(function () {
+    console.log(divValue);
+    console.log('running');
 
-    }, 100);
-    clearInterval(stepTimer);*/
+    for (let i = 0; i < divValue.length; i++) {; //-1
+        for (let j = 0; j < divValue.length-i-1; j++) {
+            //HIGHLIGHT POINTER
+            highlight(j, 'orange');
+            highlight(j+1, 'orange');
+
+            //DELAY
+            await sleep(ms);
+
+            if (divValue[j] > divValue[j + 1]) {
+                //SWAP
+                swap(j, j+1);
+                /*let temp = divValue[j];
+                divValue[j] = divValue[j + 1];
+                divValue[j + 1] = temp;*/
+
+                update(j);
+                update(j+1);
+
+                //HIGHLIGHT SWITCH
+                highlight(j, 'mediumpurple');
+                highlight(j+1, 'mediumpurple');
+            } else {
+                highlight(j, 'lightgreen');
+                highlight(j+1, 'lightgreen');
+            }
+
+            //DELAY
+            await sleep(ms);
+
+            //RESTORE
+            highlight(j, 'lightcoral');
+            highlight(j+1, 'lightcoral');
+        }
+    }
+    //LOCK HIGHLIGHT
+
+    console.log(divValue);
+    console.log('finished');
 }
 
 function selectSort() {

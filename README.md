@@ -12,9 +12,16 @@
 * [x] Set index width and height properties according to viewport size.
 * [ ] Center array container and anchor to bottom of page.
 * [ ] Colour visiting and completed index boxes to visualise swapping.
+* [ ] Adjust each Div Element as the window is adjusted.
 * [ ] Format Timer label at bottom of page to represent alg time complexity.
 
 ## Sorting Handler
 * [x] Implement update methods for switching index values and adjusting div heights based on value.
 * [ ] Highlight divs on visiting each index for comparison and when they are locked in order.
-* [ ] 
+* [ ] Develop Sorting Methods!
+
+
+
+## BUGS!
+* [ ] Algorithm completes as the Animation Timer is paused.
+* [ ] Div Values are erroneous when the dataset is adjusted by anything less than before.

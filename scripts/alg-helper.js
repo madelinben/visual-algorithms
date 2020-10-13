@@ -3,12 +3,11 @@ let algBtn = document.querySelectorAll('.alg-select button');
 for (let i=0; i<algBtn.length; i++) {
     algBtn[i].addEventListener('click', () => {
 
-        //Highlight alg button
+        disableBtn();
         algBtn[i].classList.add('alg-running');
-        /*algBtn[i].classList.remove('alg-running');*/
 
         switch (algBtn[i].innerHTML) {
-            case 'Bubble' : bubbleSort().then(r => console.log('success: Bubble'));
+            case 'Bubble' : bubbleSort().then(r => { enableBtn(); algBtn[i].classList.remove('alg-running'); }).catch((err) => { console.log('Error Handling'); });
                 break;
             case 'Selection' : selectSort();
                 break;
@@ -20,6 +19,20 @@ for (let i=0; i<algBtn.length; i++) {
                 break;
         }
     });
+}
+
+function disableBtn() {
+    for(let i=0; i<algBtn.length; i++) {
+        algBtn[i].disabled=true;
+        btnSetup.disabled=true;
+    }
+}
+
+function enableBtn() {
+    for(let i=0; i<algBtn.length; i++) {
+        algBtn[i].disabled=false;
+        btnSetup.disabled=false;
+    }
 }
 
 function swap(left, right) {
@@ -39,13 +52,6 @@ function update(index) {
 function sleep(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
-
-/*async function test() {
-    for (let i=0; i<10; i++) {
-        await sleep(1000);
-        console.log('sleeping...');
-    }
-}*/
 
 async function bubbleSort() {
     const inSpeed = document.getElementById('array-speed').value;
@@ -82,10 +88,8 @@ async function bubbleSort() {
             if (divValue[j] > divValue[j + 1]) {
                 //SWAP
                 swap(j, j+1);
-                /*let temp = divValue[j];
-                divValue[j] = divValue[j + 1];
-                divValue[j + 1] = temp;*/
 
+                //UPDATE DIV HEIGHT
                 update(j);
                 update(j+1);
 
@@ -93,6 +97,7 @@ async function bubbleSort() {
                 highlight(j, 'mediumpurple');
                 highlight(j+1, 'mediumpurple');
             } else {
+                //HIGHLIGHT LOCK
                 highlight(j, 'lightgreen');
                 highlight(j+1, 'lightgreen');
             }
@@ -105,7 +110,6 @@ async function bubbleSort() {
             highlight(j+1, 'lightcoral');
         }
     }
-    //LOCK HIGHLIGHT
 
     console.log(divValue);
     console.log('finished');

@@ -7,16 +7,15 @@ for (let i=0; i<algBtn.length; i++) {
         algBtn[i].classList.add('alg-running');
 
         switch (algBtn[i].innerHTML) {
-            case 'Bubble':
-                bubbleSort().then(r => { enableBtn(); algBtn[i].classList.remove('alg-running'); }).catch((err) => { console.log('Error Handling'); });
+            case 'Bubble' : bubbleSort().then(r => { enableBtn(); algBtn[i].classList.remove('alg-running'); }).catch((err) => { console.log('Error Handling'); });
                 break;
-            case 'Selection' : selectSort();
+            case 'Selection' : selectSort().then(r => { enableBtn(); algBtn[i].classList.remove('alg-running'); }).catch((err) => { console.log('Error Handling'); });;
                 break;
-            case 'Insertion' : insertSort();
+            case 'Insertion' : insertSort().then(r => { enableBtn(); algBtn[i].classList.remove('alg-running'); }).catch((err) => { console.log('Error Handling'); });;
                 break;
-            case 'Merge' : mergeSort();
+            case 'Merge' : mergeSort().then(r => { enableBtn(); algBtn[i].classList.remove('alg-running'); }).catch((err) => { console.log('Error Handling'); });;
                 break;
-            case 'Quick' : quickSort();
+            case 'Quick' : quickSort().then(r => { enableBtn(); algBtn[i].classList.remove('alg-running'); }).catch((err) => { console.log('Error Handling'); });;
                 break;
         }
     });
@@ -42,7 +41,26 @@ function swap(left, right) {
     divValue[right] = temp;
 }
 
-function highlight(index, color) {
+function highlight(index, operation) {
+    let color = 'lightcoral';
+    switch (operation) {
+        case 'pointer':
+            color = 'orange';
+            break;
+        case 'switch':
+            color = 'mediumpurple';
+            break;
+        case 'lock':
+            color = 'lightgreen';
+            break;
+        case 'restore':
+            color = 'lightcoral';
+            break;
+        default:
+            color = 'lightcoral';
+            break;
+    }
+
     divElement[index].style.backgroundColor = color;
 }
 
@@ -73,20 +91,4 @@ function calcDelay() {
 
 function sleep(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
-}
-
-function selectSort() {
-
-}
-
-function insertSort() {
-
-}
-
-function mergeSort() {
-
-}
-
-function quickSort() {
-
 }

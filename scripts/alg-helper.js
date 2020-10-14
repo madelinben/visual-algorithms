@@ -42,7 +42,7 @@ function swap(left, right) {
 }
 
 function highlight(index, operation) {
-    let color = 'lightcoral';
+    let color = operation;
     switch (operation) {
         case 'pointer':
             color = 'orange';
@@ -54,9 +54,6 @@ function highlight(index, operation) {
             color = 'lightgreen';
             break;
         case 'restore':
-            color = 'lightcoral';
-            break;
-        default:
             color = 'lightcoral';
             break;
     }

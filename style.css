@@ -94,6 +94,10 @@ button:hover {
     align-self: center;
 }*/
 
+.alg-select .alg-running {
+    background-color: #0080ff;
+}
+
 /*mobile=600px tablet=992*/
 @media screen and (max-width: 992px) {
     .alg-setup, .alg-select, .alg-run {

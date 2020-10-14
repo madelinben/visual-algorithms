@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Read Me objectives considered and directory organised.">
+    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Code clean-up and Refactor.">
+      <change afterPath="$PROJECT_DIR$/scripts/alg/selection-sort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/display-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/display-handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/alg-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/alg-helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/alg/bubble-sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/alg/bubble-sort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/display-array" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,7 +138,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602119292858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Switch case added to the alg buttons eventlistener allowing the appropriate method to run.">
+      <created>1602294444993</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602294444993</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Bubble sort implemented. And div update methods created for future use.">
+      <created>1602350532063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602350532063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Step delay implemented with variable speed depending on slider input.">
+      <created>1602548912438</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602548912438</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Interaction on input elements is toggled when an algorithm is running.">
+      <created>1602551104612</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602551104612</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Code clean-up and Refactor.">
+      <created>1602636385156</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602636385156</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,20 +198,29 @@
     <MESSAGE value="Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions." />
     <MESSAGE value="Footer styled according to page standard." />
     <MESSAGE value="Read Me objectives considered and directory organised." />
-    <option name="LAST_COMMIT_MESSAGE" value="Read Me objectives considered and directory organised." />
+    <MESSAGE value="Switch case added to the alg buttons eventlistener allowing the appropriate method to run." />
+    <MESSAGE value="Bubble sort implemented. And div update methods created for future use." />
+    <MESSAGE value="Step delay implemented with variable speed depending on slider input." />
+    <MESSAGE value="Interaction on input elements is toggled when an algorithm is running." />
+    <MESSAGE value="Code clean-up and Refactor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code clean-up and Refactor." />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="278" key="FileChooserDialogImpl" timestamp="1602114051991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602114051991" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602119296778">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602636388363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602119296778" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602636388363" />
     <state x="866" y="0" width="1061" height="1047" key="dock-window-1" timestamp="1602117292763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="866" y="0" width="1061" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1602117292763" />
+    <state x="233" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1602549182617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="233" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602549182617" />
   </component>
 </project>

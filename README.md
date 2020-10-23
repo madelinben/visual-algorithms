@@ -27,3 +27,5 @@
 * [x] Algorithm completes as the Animation Timer is paused.
 * [x] Deactivate input buttons to prevent multiple async sorts from occuring.
 * [ ] Div Values are erroneous when the dataset is adjusted by anything less than before.
+* [ ] Add completed boolean in Bubble sort alg.
+* [ ] Add git repo link to credit.

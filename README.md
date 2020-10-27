@@ -6,6 +6,7 @@
 * [x] Holy Grail Grid layout formatted.
 * [x] Page styling added, centering header elements inline with flex containers.
 * [x] Device Boundaries and Scaling formatted suitable for desktop and tablet/mobile proportions.
+* [x] Add git repo link to credit.
 
 ## 🔮 Display Array
 * [x] Dynamically add div boxes based on array size.
@@ -27,7 +28,6 @@
 * [ ] Add completed boolean in Bubble sort alg.
 
 ## What's Next!
-* [ ] Add git repo link to credit.
 * [ ] Scale div heights as a percentage of the largest value.
 * [ ] Adjust each Div Element as the window is adjusted.
 * [ ] Bucket Sort.

@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Code clean-up and Refactor.">
-      <change afterPath="$PROJECT_DIR$/scripts/alg/selection-sort.js" afterDir="false" />
+    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Added git repo link to credit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/alg-helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/alg-helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/alg/bubble-sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/alg/bubble-sort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/display-array" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,6 +84,11 @@
       <option name="presentableId" value="Default" />
       <updated>1602038695336</updated>
       <workItem from="1602038696424" duration="14554000" />
+      <workItem from="1602767661204" duration="9610000" />
+      <workItem from="1603462604978" duration="597000" />
+      <workItem from="1603510292183" duration="638000" />
+      <workItem from="1603553015245" duration="11717000" />
+      <workItem from="1603843491318" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="Initial data and containers organised.">
       <created>1602041824226</created>
@@ -173,7 +174,42 @@
       <option name="project" value="LOCAL" />
       <updated>1602636385156</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Selection Sorting Algorithm implemented.">
+      <created>1602641212511</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602641212511</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Bubble, Selection and Insertion Sort methods have been implemented.">
+      <created>1602647021383</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602647021383</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Quick Sort method has been implemented.">
+      <created>1603416645088</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603416645089</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge Sort method has been implemented.">
+      <created>1603841036511</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603841036511</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added git repo link to credit.">
+      <created>1603842586543</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603842586543</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +225,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial data and containers organised." />
@@ -203,17 +240,22 @@
     <MESSAGE value="Step delay implemented with variable speed depending on slider input." />
     <MESSAGE value="Interaction on input elements is toggled when an algorithm is running." />
     <MESSAGE value="Code clean-up and Refactor." />
-    <option name="LAST_COMMIT_MESSAGE" value="Code clean-up and Refactor." />
+    <MESSAGE value="Selection Sorting Algorithm implemented." />
+    <MESSAGE value="Bubble, Selection and Insertion Sort methods have been implemented." />
+    <MESSAGE value="Quick Sort method has been implemented." />
+    <MESSAGE value="Merge Sort method has been implemented." />
+    <MESSAGE value="Added git repo link to credit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added git repo link to credit." />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="278" key="FileChooserDialogImpl" timestamp="1602114051991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602114051991" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602636388363">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1603842589451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602636388363" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603842589451" />
     <state x="866" y="0" width="1061" height="1047" key="dock-window-1" timestamp="1602117292763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

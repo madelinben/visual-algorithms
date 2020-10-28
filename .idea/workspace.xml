@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Merge Sort method has been implemented.">
+    <list default="true" id="a4c821b3-b351-458f-819e-488362b28923" name="Default Changelist" comment="Added git repo link to credit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/alg/merge-sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/alg/merge-sort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,8 @@
       <workItem from="1602767661204" duration="9610000" />
       <workItem from="1603462604978" duration="597000" />
       <workItem from="1603510292183" duration="638000" />
-      <workItem from="1603553015245" duration="11264000" />
+      <workItem from="1603553015245" duration="11717000" />
+      <workItem from="1603843491318" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="Initial data and containers organised.">
       <created>1602041824226</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603841036511</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added git repo link to credit.">
+      <created>1603842586543</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603842586543</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,17 +244,18 @@
     <MESSAGE value="Bubble, Selection and Insertion Sort methods have been implemented." />
     <MESSAGE value="Quick Sort method has been implemented." />
     <MESSAGE value="Merge Sort method has been implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sort method has been implemented." />
+    <MESSAGE value="Added git repo link to credit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added git repo link to credit." />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="278" key="FileChooserDialogImpl" timestamp="1602114051991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602114051991" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1603841046800">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1603842589451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603841046800" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603842589451" />
     <state x="866" y="0" width="1061" height="1047" key="dock-window-1" timestamp="1602117292763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,6 +1,8 @@
 # Algorithm Visualiser ✨
 ***A graphical visualisation of advanced data structures and algorithms.***
 
+**Site preview hosted on GitHub Pages:** https://madelinben.github.io/visual-algorithms/
+
 ## 🗺 Page Layout
 * [x] Initial data and containers organised.
 * [x] Holy Grail Grid layout formatted.
@@ -25,7 +27,6 @@
 * [x] Algorithm completes as the Animation Timer is paused.
 * [x] Deactivate input buttons to prevent multiple async sorts from occuring.
 * [ ] Div Values are erroneous when the dataset is adjusted by anything less than before.
-* [ ] Add completed boolean in Bubble sort alg.
 
 ## What's Next!
 * [ ] Scale div heights as a percentage of the largest value.
